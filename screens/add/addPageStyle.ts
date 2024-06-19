@@ -1,0 +1,80 @@
+import { SPACE } from "@/utils/constant";
+import { StyleSheet } from "react-native";
+
+export const addPageStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    paddingTop: SPACE * 2,
+    backgroundColor: "white",
+  },
+  titleCard: {
+    width: "90%",
+    alignSelf: "center",
+    height: 80,
+    backgroundColor: "#fff",
+    borderRadius: SPACE,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: SPACE,
+    elevation: 5,
+    shadowOpacity: 0.7,
+    shadowColor: "#a9a9a9",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    margin: SPACE,
+  },
+  text: {
+    color: "#212121",
+    fontWeight: "bold",
+    fontSize: 17,
+  },
+  button: {
+    width: "70%",
+    height: 60,
+    borderRadius: SPACE,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "transparent",
+    borderWidth: 1,
+    borderColor: "#0A8080",
+    paddingLeft: SPACE * 2,
+    marginTop: SPACE * 2,
+  },
+  buttonText: {
+    fontWeight: "bold",
+    color: "#0A8080",
+  },
+  listContainer: {
+    width: "100%",
+    justifyContent: "center",
+    marginTop: SPACE * 2,
+  },
+  card: {
+    width: "90%",
+    alignSelf: "center",
+    height: 80,
+    backgroundColor: "#fff",
+    borderRadius: SPACE,
+    flexDirection: "row",
+    alignItems: "center",
+    padding: SPACE,
+    elevation: 5,
+    shadowOpacity: 0.7,
+    shadowColor: "#a9a9a9",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    margin: SPACE,
+  },
+  iconAndTextContainer: {
+    width: "50%",
+    height: "100%",
+    flexDirection: "row",
+    alignItems: "center",
+    paddingLeft: SPACE / 4,
+  },
+});
